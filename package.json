@@ -18,7 +18,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:Monotype/mt-logger.git"
+    "url": "git@github.com:Monotype/node-html-to-image-r360.git"
   },
   "dependencies": {
     "handlebars": "4.7.8",
