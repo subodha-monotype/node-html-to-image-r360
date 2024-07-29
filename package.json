@@ -1,5 +1,5 @@
 {
-  "name": "@monotype/mt-logger",
+  "name": "@monotype/node-html-to-image-r360",
   "version": "4.0.0",
   "description": "A Node.js library that generates images from HTML",
   "main": "dist/index.js",
