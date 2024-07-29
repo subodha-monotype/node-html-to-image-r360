@@ -1,12 +1,25 @@
 {
-  "name": "node-html-to-image",
+  "name": "@monotype/mt-logger",
   "version": "4.0.0",
   "description": "A Node.js library that generates images from HTML",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "repository": "git@github.com:frinyvonnick/node-html-to-image.git",
-  "author": "FRIN Yvonnick <frin.yvonnick@gmail.com>",
-  "license": "Apache-2.0",
+  "author": {
+    "name": "Monotype",
+    "email": "helpdesk@monotype.com",
+    "url": "https://www.monotype.com/"
+  },
+  "contributors": [
+    {
+      "name": "Subodha Sahu",
+      "email": "subodha.sahu-graymatter@monotype.com"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Monotype/mt-logger.git"
+  },
   "dependencies": {
     "handlebars": "4.7.8",
     "puppeteer": "22.14.0",
@@ -17,11 +30,7 @@
     "lint": "eslint ./src",
     "build": "tsc"
   },
-  "files": [
-    "src",
-    "types",
-    "!src/*.spec.js"
-  ],
+  "files": ["src", "types", "!src/*.spec.js"],
   "devDependencies": {
     "@babel/core": "^7.18.6",
     "@babel/preset-env": "^7.18.6",
